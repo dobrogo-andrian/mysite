@@ -15,14 +15,18 @@ h1{
     font-size: 45px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
+    color: #AA9885;
 }
 h2{
     font-size: 38px;
+    color: #AA9885;
 }
 p{
     width: 600px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 18px;
+    color: #AA9885;
 }
 header{
 
@@ -53,6 +57,10 @@ main{
     margin-right: auto;
     max-width: 2000px;
     justify-content: space-between;
+}
+section{
+    display: flex;
+    flex-direction: column;
 }
 #navigation{
     margin-left: 280px;
@@ -91,15 +99,36 @@ aside{
     width: 20%;
     right: 0;
 }
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 #MainP{
     width: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
+#content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+section img{
+    height: 500px;
+    max-width: 400px;
+}
 
 
 
+@media (max-width: 1420px) {
+    aside{
+        display: none;
+    }
+    
+}
 
 
 
@@ -115,6 +144,19 @@ aside{
     #burgerImg{
         display: block;
     }
+    section img{
+        height: 300px;
+        max-width: 200px;
+    }
+    #MainP{
+        display: flex;
+        flex-direction: column;
+
+    }
+    p{
+    width: 80%;
+    }
+
 }
 @media (max-width: 480px){
     h2{

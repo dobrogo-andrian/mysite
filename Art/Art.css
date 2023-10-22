@@ -11,18 +11,29 @@ a{
     color: #AA9885
 }
 h1{
-    text-align: center;
-    font-size: 45px;
-    font-weight: 100;
+    font-size: 38px;
+    font-weight: 600;
     font-family: 'Roboto', sans-serif;
+    color: #AA9885;
+    max-width: 2000px;
 }
 h2{
     font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    color: #AA9885;
 }
-
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #AA9885;
+    max-width: 2000px;
+}
 header{
 
 }
+img{
+     height: 500px;
+ }
 #head{
     display: flex;
     align-items: center;
@@ -48,6 +59,16 @@ main{
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 #navigation{
     margin-left: 280px;
@@ -77,6 +98,12 @@ main{
     height: 60px;
     filter: invert(64%) sepia(8%) saturate(758%) hue-rotate(350deg) brightness(96%) contrast(87%);
 }
+#MainP{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @media(max-width: 860px){
     nav{
@@ -90,9 +117,15 @@ main{
     #burgerImg{
         display: block;
     }
+    #MainP{
+        width: 80vw;
+    }
 }
 @media (max-width: 480px){
     h2{
         font-size: 20px;
+    }
+    h1{
+        font-size: 24px;
     }
 }

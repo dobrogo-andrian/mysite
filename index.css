@@ -49,6 +49,14 @@ main{
     margin-right: auto;
     max-width: 2000px;
 }
+video{
+    width: 80%;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #navigation{
      margin-left: 280px;
      display: flex;
@@ -79,13 +87,19 @@ main{
 }
 aside{
     width: 340px;
-    height: 2740px;
+    height: 2851px;
+}
+#aside-items{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #helloWarrior{
     display: block;
     width: 440px;
     color: #AA9885;
-    margin: 55px 0 90px 0;
+    margin: 20px 0 40px 0;
 }
 
 .p{
@@ -97,11 +111,10 @@ aside{
 
 #amv{
     display: flex;
-    width: 50%;
-    height: 350px;
     background-color: #28292A;
     align-items: center;
     justify-content: center;
+
 }
 .section{
     display: flex;
@@ -132,7 +145,7 @@ margin-top: 60px;
      font-family: 'Roboto', sans-serif;
      font-size: 28px;
  }
-@media (max-width: 1240px) {
+@media (max-width: 1440px) {
     aside {
         display: none;
     }
@@ -168,8 +181,10 @@ margin-top: 60px;
     }
     #more{
         width: 320px;
+        height: 40px;
     }
+
     img{
-        width: 100%;
+        width: 80%;
     }
 }
