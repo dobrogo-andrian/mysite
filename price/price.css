@@ -51,6 +51,9 @@ main{
     margin: 0 auto;
 }
 section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin: 20px;
     width: 40vw;
     min-width: 300px;
@@ -59,6 +62,29 @@ section{
     background-color: bisque;
     border-radius: 16px;
 }
+h3{
+    margin-left: 40px;
+    color: #635b52;
+}
+
+ul li{
+    margin: 40px 20px 40px 0;
+}
+input{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    width:90%;
+    height: 26px;
+    font-size: 16px;
+    border-width: 0;
+    background-color: white;
+}
+section:hover{
+     background-color: #e1c5ae;
+ }
 .head{
     position: relative;
     right: 1px;
@@ -105,14 +131,7 @@ section{
     height: 60px;
     filter: invert(64%) sepia(8%) saturate(758%) hue-rotate(350deg) brightness(96%) contrast(87%);
 }
-h3{
-    margin-left: 75px;
-    color: #635b52;
-}
 
-ul li{
-    margin: 20px auto;
-}
 .menu{
     position: absolute;
     display: none;
