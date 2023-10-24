@@ -84,7 +84,7 @@ section{
     text-align: center;
     color: #AA9885;
 }
-#burgerImg{
+.burgerImg{
     display: none;
     width: 60px;
     height: 60px;
@@ -120,7 +120,21 @@ section img{
     height: 500px;
     max-width: 400px;
 }
-
+.menu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    background-color: #28292A;
+    right: 0;
+    font-size: 16px;
+}
+#menu a{
+    margin: 10px 5px;
+}
+.menu-active{
+    display: flex;
+}
 
 
 @media (max-width: 1420px) {
@@ -141,7 +155,7 @@ section img{
         align-items: center;
         justify-content: center;
     }
-    #burgerImg{
+    .burgerImg{
         display: block;
     }
     section img{

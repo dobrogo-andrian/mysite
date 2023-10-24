@@ -80,7 +80,7 @@ p{
     text-align: center;
     color: #AA9885;
 }
-#burgerImg{
+.burgerImg{
     display: none;
     width: 60px;
     height: 60px;
@@ -122,7 +122,65 @@ p{
 #MainText{
     margin-top: 40px;
 }
+.menu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    background-color: #28292A;
+    right: 0;
+    font-size: 16px;
+}
+#menu a{
+    margin: 10px 5px;
+}
+.menu-active{
+    display: flex;
+}
+#contact{
+    width: 50vw;
+    height: 500px;
+    min-width: 300px;
+    max-width: 450px;
+    background-color: #AA9885;
+    border-radius: 16px;
+    margin-bottom: 40px ;
 
+}
+h3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+label{
+
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+input{
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    width:90%;
+    height: 26px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+    border-width: 0;
+}
+textarea{
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#label{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
 @media(max-width: 1420px){
     #MainSection{
         justify-content: center;
@@ -142,7 +200,7 @@ p{
         align-items: center;
         justify-content: center;
     }
-    #burgerImg{
+    .burgerImg{
         display: block;
     }
     #andrian{

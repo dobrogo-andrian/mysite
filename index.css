@@ -31,6 +31,7 @@ header{
     margin-right: auto;
     max-width: 2000px;
     height: 60px;
+
 }
 
 nav{
@@ -42,12 +43,14 @@ nav{
     margin: 20px;
     color: #AA9885;
 
+
 }
 main{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
+
 }
 video{
     width: 80%;
@@ -63,7 +66,8 @@ video{
      justify-content: space-between;
      align-items: center;
      width: 100%;
- }
+
+}
 #logo{
      width: 60px;
      height: 60px;
@@ -79,7 +83,7 @@ video{
     text-align: center;
     color: #AA9885;
 }
-#burgerImg{
+.burgerImg{
     display: none;
     width: 60px;
     height: 60px;
@@ -145,6 +149,22 @@ margin-top: 60px;
      font-family: 'Roboto', sans-serif;
      font-size: 28px;
  }
+.menu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    background-color: #28292A;
+    right: 0;
+    font-size: 16px;
+}
+#menu a{
+    margin: 10px 5px;
+}
+.menu-active{
+    display: flex;
+}
+
 @media (max-width: 1440px) {
     aside {
         display: none;
@@ -159,10 +179,11 @@ margin-top: 60px;
         align-items: center;
         justify-content: center;
     }
-    #burgerImg{
+    .burgerImg{
         display: block;
     }
 }
+
 @media (max-width: 480px){
 .p{
     width: 340px;

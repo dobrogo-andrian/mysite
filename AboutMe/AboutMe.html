@@ -27,8 +27,13 @@
                 <a href="../AboutMe/AboutMe.html">ПРО МЕНЕ</a>
             </nav>
         </div>
-        <img id="burgerImg" src="../photo/IndexPhoto/menu-burger-horizontal-bold.svg" alt="burger">
-    </div>
+        <img class="burgerImg" src="../photo/IndexPhoto/menu-burger-horizontal-bold.svg" alt="burger">
+        <div id="menu" class="menu">
+            <a href="../Literature/Literature.html">ЛІТЕРАТУРА</a>
+            <a href="../Art/Art.html">МИСТЕЦТВО</a>
+            <a href="../Thought/Thought.html">РОЗДУМИ</a>
+            <a href="../AboutMe/AboutMe.html">ПРО МЕНЕ</a>
+        </div>    </div>
 
 </header>
 
@@ -82,8 +87,20 @@
         </div>
         <img id="horizon" src="../photo/AboutMePhoto/horizon.jpg" alt="horizon">
     </div>
-</main>
+    <div id="contact">
+        <h3>Contact us</h3>
+        <label for="name">Name:<br></label>
+        <input id="name" type="text" placeholder="Andrian">
+        <label for="email">Email:<br></label>
+        <input id="email" type="text" placeholder="your-email.gmail.com">
+        <label for="subject">Subject:<br></label>
+        <input id="subject" type="text" placeholder="Suggest">
+        <label id="label" for="textarea">Massage:<br></label>
+        <textarea id="textarea"></textarea>
 
+    </div>
+</main>
+<script src="../index.js"></script>
 </body>
 
 </html>
