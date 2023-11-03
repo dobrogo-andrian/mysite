@@ -13,11 +13,13 @@ a{
 h1{
     text-align: center;
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 300;
+    margin-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 h2{
     font-size: 38px;
+    font-weight: 300;
 }
 
 header{
@@ -103,11 +105,12 @@ aside{
     display: block;
     width: 440px;
     color: #AA9885;
-    margin: 20px 0 40px 0;
+    margin: 20px 20px 40px 20px;
 }
 
 .p{
     width: 440px;
+    font-weight: 300;
     text-align: center;
     font-size: 24px;
     margin: 0 20px;
@@ -148,6 +151,7 @@ margin-top: 60px;
 #mainP{
      font-family: 'Roboto', sans-serif;
      font-size: 28px;
+    font-weight: 300;
  }
 .menu{
     position: absolute;
@@ -192,7 +196,7 @@ margin-top: 60px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 18px;
 }
     h2{
         font-size: 20px;
