@@ -162,3 +162,8 @@ section:hover{
         display: block;
     }
 }
+@media (min-width: 860px) {
+    .menu-active{
+        display: none;
+    }
+}

@@ -244,3 +244,8 @@ textarea{
         width: 310px;
     }
 }
+@media (min-width: 860px) {
+    .menu-active{
+        display: none;
+    }
+}

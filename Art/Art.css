@@ -161,3 +161,8 @@ section{
         width: 100%;
     }
 }
+@media (min-width: 860px) {
+    .menu-active{
+        display: none;
+    }
+}

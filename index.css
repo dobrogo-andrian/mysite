@@ -218,4 +218,10 @@ margin-top: 60px;
     img{
         width: 80%;
     }
+
+}
+@media (min-width: 860px) {
+.menu-active{
+display: none;
+}
 }
