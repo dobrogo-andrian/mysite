@@ -3,7 +3,7 @@ body{
     background-color: #373A39;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0;
 }
 a{
@@ -11,8 +11,8 @@ a{
     color: #AA9885
 }
 h1{
-    font-size: 38px;
-    font-weight: 600;
+    font-size: 42px;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #AA9885;
     max-width: 2000px;
@@ -21,18 +21,22 @@ h2{
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
     color: #AA9885;
+    font-weight: 300;
 }
 p{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     color: #AA9885;
     max-width: 2000px;
+    font-weight: 300;
 }
 header{
 
 }
-img{
-     height: 500px;
+main img{
+    height: 500px;
+    margin: 10px 6px;
+    min-width: 310px;
  }
 #head{
     display: flex;
@@ -117,12 +121,18 @@ section{
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
+    min-width: 690px;
 }
+
 
 
 @media(max-width: 860px){
     nav{
         display: none;
+    }
+
+    main{
+        align-items: center;
     }
     #navigation{
         margin: 0;
@@ -134,13 +144,20 @@ section{
     }
     #MainP{
         width: 80vw;
+        min-width: 0;
+    }
+    #main{
+        width: 80%;
     }
 }
 @media (max-width: 480px){
     h2{
-        font-size: 20px;
+        font-size: 26px;
     }
     h1{
-        font-size: 24px;
+        font-size: 32px;
+    }
+    img{
+        width: 100%;
     }
 }

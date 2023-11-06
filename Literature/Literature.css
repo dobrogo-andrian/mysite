@@ -3,7 +3,7 @@ body{
     background-color: #373A39;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0;
 }
 a{
@@ -13,19 +13,22 @@ a{
 h1{
     text-align: center;
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #AA9885;
+    margin-bottom: 10px;
 }
 h2{
     font-size: 38px;
     color: #AA9885;
+    font-weight: 300;
 }
 p{
     width: 600px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 300;
     color: #AA9885;
 }
 header{
@@ -61,6 +64,7 @@ main{
 section{
     display: flex;
     flex-direction: column;
+    margin-top: 26px;
 }
 #navigation{
     margin-left: 280px;
@@ -95,7 +99,7 @@ aside{
     flex-direction: column;
     float: right;
     justify-content: space-around;
-    height: 2600px;
+    height: auto;
     width: 20%;
     right: 0;
 }
@@ -135,7 +139,9 @@ section img{
 .menu-active{
     display: flex;
 }
-
+#LastSection{
+    margin-bottom: 40px;
+}
 
 @media (max-width: 1420px) {
     aside{

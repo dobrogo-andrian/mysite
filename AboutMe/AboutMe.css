@@ -3,7 +3,7 @@ body{
     background-color: #373A39;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0;
 }
 a{
@@ -13,7 +13,7 @@ a{
 h1{
     text-align: center;
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #AA9885;
 }
@@ -21,6 +21,7 @@ h2{
     font-size: 42px;
     color: #AA9885;
     text-align: center;
+    font-weight: 500;
 }
 
 header{
@@ -57,6 +58,7 @@ main{
 p{
     font-size: 32px;
     color: #AA9885;
+    font-weight: 300;
 }
 #navigation{
     margin-left: 280px;
@@ -230,8 +232,15 @@ textarea{
     p{
         font-size: 16px;
     }
-    img{
-        width: 80%
+    #empty{
+        width: 310px;
+        height: 460px;
     }
-
+    #horizon{
+        width: 310px;
+        height: 460px;
+    }
+    #andrian{
+        width: 310px;
+    }
 }

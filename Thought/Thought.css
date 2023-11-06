@@ -3,7 +3,7 @@ body{
     background-color: #373A39;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0;
 }
 a{
@@ -58,8 +58,8 @@ p{
     font-size: 24px;
     font-family: 'Inter', sans-serif;
     color: #AA9885;
-    margin: 60px 0;
-
+    margin: 85px 0 20px 0;
+    font-weight: 300;
 }
 #navigation{
     margin-left: 280px;
@@ -127,6 +127,7 @@ p{
     justify-content: space-between;
     align-items: center;
     height: 400px;
+    z-index: 5;
 }
 #right-side{
     position: absolute;
@@ -138,6 +139,7 @@ p{
     justify-content: space-between;
     align-items: center;
     height: 400px;
+    z-index: 5;
 }
 #side{
     position: absolute;
@@ -148,7 +150,8 @@ p{
     transform: translate(-50%, -50%);
     justify-content: space-between;
     align-items: center;
-    height: 400px;
+    height: 60px;
+    z-index: 10;
 }
 #photo{
     position: absolute;
