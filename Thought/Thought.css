@@ -14,7 +14,7 @@ a{
 h1{
     text-align: center;
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #AA9885;
 }
@@ -161,7 +161,7 @@ p{
     background-size: cover;
     background-position: center;
     max-width: 2000px;
-    top: 610px;
+    bottom: 0;
 }
 .menu{
     position: absolute;
@@ -190,12 +190,6 @@ p{
     .burgerImg{
         display: block;
     }
-}
-@media (max-width: 600px) {
-    #photo{
-        top: 740px;
-    }
-
 }
 @media (max-width: 480px){
     h2{
